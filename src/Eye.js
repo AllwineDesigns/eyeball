@@ -7,7 +7,7 @@ import React, { forwardRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default forwardRef(function Model(props, ref) {
-  const { nodes, materials } = useGLTF('/Eye.glb')
+  const { nodes, materials } = useGLTF('./Eye.glb')
   return (
     <group {...props} dispose={null} ref={ref}>
       <group scale={1.04}>
@@ -18,4 +18,4 @@ export default forwardRef(function Model(props, ref) {
   )
 })
 
-useGLTF.preload('/Eye.glb')
+useGLTF.preload('./Eye.glb')
