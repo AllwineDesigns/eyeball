@@ -2,6 +2,7 @@
   "name": "eyeball",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@react-three/drei": "^9.88.4",
     "@react-three/fiber": "^8.15.1",
